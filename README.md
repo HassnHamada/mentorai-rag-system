@@ -10,5 +10,5 @@ This is a recommendation system for Mentor.AI. Using Cohere's embeddings and Wea
 ## Files
 - [vectorDB.py](./src/vectorDB.py) is an abstraction to control weaviate database.
 - [main.ipynb](./main.ipynb) is the main file to clean the data and create the embeddings.
-- [data_cleaning.ipynb](./data_cleaning.ipynb) used to process JSON data.
+- [data_cleaning.ipynb](./data_cleaning.ipynb) used to process JSON data and save it to a CSV file.
 - [docker-compose.yml](./docker-compose.yml) is used to start a local  instance of Weaviate.
